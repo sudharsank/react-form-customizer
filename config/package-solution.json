@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "form-cust-test-client-side-solution",
+    "id": "420ec808-dcd2-40ca-9e2d-9dfbef417f81",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0-beta.6"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "form-cust-test description"
+      },
+      "longDescription": {
+        "default": "form-cust-test description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "form-cust-test Feature",
+        "description": "The feature that activates elements of the form-cust-test solution.",
+        "id": "915bc1e7-4363-4f7d-93c5-75e34ac49a04",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/form-cust-test.sppkg"
+  }
+}

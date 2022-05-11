@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "test-customizer-form-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/testCustomizer/TestCustomizerFormCustomizer.js",
+          "manifest": "./src/extensions/testCustomizer/TestCustomizerFormCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TestCustomizerFormCustomizerStrings": "lib/extensions/testCustomizer/loc/{locale}.js"
+  }
+}
